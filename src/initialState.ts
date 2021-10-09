@@ -1,6 +1,6 @@
 const  initialState  =  {
-  carrito : [ ] ,
-  productos : [
+  
+  products : [
     {
       'id' : '1' ,
       'title' : 'Arroz' ,
