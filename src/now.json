@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "API-ListaCompras",
+
+  "routes": [
+    {
+      "src": "(.*).json",
+      "dest": "/$1.json"
+    }
+  ]
+}
