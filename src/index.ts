@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3006;
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hello TypeScript v1')
+  res.send('Hello TypeScript v2')
 })
 
 app.get('/api/v1', (req: Request, res: Response) => {
