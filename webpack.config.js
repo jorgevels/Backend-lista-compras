@@ -3,12 +3,13 @@ const nodeExternals = require("webpack-node-externals");
 
 const NODE_ENV = process.env.NODE_ENV;
 const PORT = process.env.PORT;
+const CORS = process.env.CORS;
 
 module.exports = {
   name: "express-server",
   entry: "./src/index.ts",
   target: "node",
-  mode: NODE_ENV,
+  mode: { NODE_ENV, CORS },
   externals: [nodeExternals()],
   output: {
     path: path.resolve(__dirname, "dist"),
