@@ -6,11 +6,11 @@ import initialState from "./initialState";
 const app = express();
 const port = process.env.PORT || 3006;
 
-const corsOptions = {
+/* const corsOptions = {
   origin: "*",
   methods: "GET, POST, PUT, DELETE, PATCH"
 }
-app.use(cors(corsOptions))
+app.use(cors(corsOptions)) */
 
 app.get("/", (req: Request, res: Response) => {
   res.send("Hello TypeScript v3");
