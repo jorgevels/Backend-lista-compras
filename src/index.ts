@@ -6,6 +6,7 @@ import initialState from "./initialState";
 const app = express();
 const port = process.env.PORT || 3006;
 
+//Milddeware
 const corsOptions = {
   origin: "*",
   methods: "GET, POST, PUT, DELETE, PATCH"
@@ -13,7 +14,7 @@ const corsOptions = {
 app.use(cors(corsOptions))
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Hello TypeScript v3");
+  res.send("Hello TypeScript v4");
 });
 
 app.get("/api/v1", (req: Request, res: Response) => {
