@@ -33,11 +33,12 @@ const  initialState  =  {
     } ,
     {
       'id': '6',
+      'image': 'https://res.cloudinary.com/imagesfull/image/upload/v1636044203/Lista-Compras/jamon-removebg-preview_jsue9r.png',
       'title': 'Jamon',
       'price': 1200,
     },{
       'id': '7',
-      'image': 'https://res.cloudinary.com/imagesfull/image/upload/v1636044203/Lista-Compras/jamon-removebg-preview_jsue9r.png',
+      'image': 'https://res.cloudinary.com/imagesfull/image/upload/v1636044185/Lista-Compras/queso-removebg-preview_ugegvf.png',
       'title' : 'Queso' ,
       'price' : 3500 ,
     } ,
