@@ -2,27 +2,32 @@ const  initialState  =  {
   
   products : [
     {
-      'id' : '1' ,
+      'id': '1',
+      'image': 'https://res.cloudinary.com/imagesfull/image/upload/v1636042498/Lista-Compras/arroz-removebg-preview_nofmsb.png',
       'title' : 'Arroz' ,
       'price' : 15000 ,
     } ,
     {
       'id': '2',
+      'image': 'https://res.cloudinary.com/imagesfull/image/upload/v1636042482/Lista-Compras/leche-removebg-preview_fa3bup.png',
       'title': 'Leche',
       'price': 850,
     },
     {
-      'id' : '3' ,
+      'id': '3',
+      'image': 'https://res.cloudinary.com/imagesfull/image/upload/v1636044219/Lista-Compras/cafe-removebg-preview_wj6dok.png',
       'title' : 'Cafe' ,
       'price' : 600000 ,
     } ,
     {
       'id': '4',
+      'image': 'https://res.cloudinary.com/imagesfull/image/upload/v1636044211/Lista-Compras/chocolate-removebg-preview_r7c7q1.png',
       'title': 'Chocolate',
       'price': 5400,
     },
     {
-      'id' : '5' ,
+      'id': '5',
+      'image': 'https://res.cloudinary.com/imagesfull/image/upload/v1636044436/Lista-Compras/mantequilla-removebg-preview_kak5sj.png',
       'title' : 'Mantequilla' ,
       'price' : 6500 ,
     } ,
@@ -31,22 +36,26 @@ const  initialState  =  {
       'title': 'Jamon',
       'price': 1200,
     },{
-      'id' : '7' ,
+      'id': '7',
+      'image': 'https://res.cloudinary.com/imagesfull/image/upload/v1636044203/Lista-Compras/jamon-removebg-preview_jsue9r.png',
       'title' : 'Queso' ,
       'price' : 3500 ,
     } ,
     {
       'id': '8',
+      'image': 'https://res.cloudinary.com/imagesfull/image/upload/v1636044193/Lista-Compras/pan-removebg-preview_obwch3.png',
       'title': 'Pan',
       'price': 2300,
     },
     {
-      'id' : '9' ,
+      'id': '9',
+      'image': 'https://res.cloudinary.com/imagesfull/image/upload/v1636042490/Lista-Compras/cereal-removebg-preview_oxoo0f.png',
       'title' : 'Cereal' ,
       'price' : 1500 ,
     } ,
     {
       'id': '10',
+      'image': 'https://res.cloudinary.com/imagesfull/image/upload/v1636044228/Lista-Compras/avena-removebg-preview_fx7ifl.png',
       'title': 'Avena',
       'price': 1200,
     },
